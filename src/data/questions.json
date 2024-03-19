@@ -1,0 +1,2247 @@
+{
+  "tests": [
+    {
+      "id": "0",
+      "title": "React",
+      "questions": [
+        {
+          "question": "Which is the most popular JavaScript framework?",
+          "options": [
+            "Angular",
+            "React",
+            "Svelte",
+            "Vue"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "How does server-side rendering with React benefit advanced ReactJS applications?",
+          "options": [
+            "By improving SEO performance and initial page load time",
+            "By reducing client-side rendering overhead",
+            "By simplifying state management",
+            "By optimizing component rendering"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of React's Suspense component in advanced ReactJS applications?",
+          "options": [
+            "To handle asynchronous data fetching",
+            "To manage form state",
+            "To optimize rendering performance",
+            "To simplify CSS styling"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is NOT a benefit of using hooks in advanced ReactJS development?",
+          "options": [
+            "Improved code readability",
+            "Improved compatibility with class components",
+            "Encapsulation of side effects",
+            "Simplified state management"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of React's Concurrent Mode in advanced ReactJS applications?",
+          "options": [
+            "To perform multiple tasks simultaneously",
+            "To enable pre-rendering of components",
+            "To prioritize rendering of high-priority components",
+            "To optimize rendering performance by rendering components with varying priorities"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the React.createRef method in advanced ReactJS development?",
+          "options": [
+            "To create DOM references for accessing DOM elements in class components",
+            "To create custom hooks for managing component state",
+            "To create reusable component logic",
+            "To perform data fetching"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "How does server-side rendering benefit advanced ReactJS applications?",
+          "options": [
+            "By simplifying state management",
+            "By optimizing CSS rendering",
+            "By reducing client-side rendering overhead",
+            "By improving SEO performance"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "How does React.memo differ from PureComponent in terms of component optimization?",
+          "options": [
+            "React.memo works only with functional components, while PureComponent works with class components.",
+            "React.memo works with both functional and class components, while PureComponent works only with functional components.",
+            "React.memo performs shallow comparison of props, while PureComponent performs deep comparison of props and state.",
+            "React.memo doesn't perform any comparison, while PureComponent performs shallow comparison of props."
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "How does the React.lazy function improve performance in advanced ReactJS applications?",
+          "options": [
+            "By enabling lazy loading of components",
+            "By reducing network requests",
+            "By optimizing CSS rendering",
+            "By minifying JavaScript code"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the useReducer hook in advanced ReactJS applications?",
+          "options": [
+            "To manage side effects in functional components",
+            "To memoize expensive calculations",
+            "To manage complex state logic",
+            "To handle asynchronous operations"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "How does React's error boundary feature help in advanced ReactJS development?",
+          "options": [
+            "By preventing component rendering errors",
+            "By catching JavaScript errors during rendering",
+            "By optimizing component performance",
+            "By providing better error handling and fallback UI"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the React.memo higher-order component?",
+          "options": [
+            "To memoize the rendering of functional components",
+            "To manage global application state",
+            "To handle asynchronous operations",
+            "To create reusable component logic"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "Which React feature is used for server-side rendering with data fetching in advanced ReactJS ",
+          "options": [
+            "React Hooks",
+            "Concurrent Mode",
+            "Suspense",
+            "useEffect hook"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "How does code splitting benefit advanced ReactJS applications?",
+          "options": [
+            "By providing better error handling",
+            "By optimizing state management",
+            "By reducing bundle size and improving initial load time",
+            "By improving code readability and maintainability"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which is the most popular JavaScript framework?",
+          "options": [
+            "Angular",
+            "React",
+            "Svelte",
+            "Vue"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which company invented React?",
+          "options": [
+            "Google",
+            "Apple",
+            "Netflix",
+            "Facebook"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What's the fundamental building block of React apps?",
+          "options": [
+            "Components",
+            "Blocks",
+            "Elements",
+            "Effects"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "What's the name of the syntax we use to describe the UI in React components?",
+          "options": [
+            "FBJ",
+            "Babel",
+            "JSX",
+            "ES2015"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "How does data flow naturally in React apps?",
+          "options": [
+            "From parents to children",
+            "From children to parents",
+            "Both ways",
+            "The developers decides"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "How to pass data into a child component?",
+          "options": [
+            "State",
+            "Props",
+            "PropTypes",
+            "Parameters"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "When to use derived state?",
+          "options": [
+            "Whenever the state should not trigger a re-render",
+            "Whenever the state can be synchronized with an effect",
+            "Whenever the state should be accessible to all components",
+            "Whenever the state can be computed from another state variable"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "What triggers a UI re-render in React?",
+          "options": [
+            "Running an effect",
+            "Passing props",
+            "Updating state",
+            "Adding event listeners to DOM elements"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "When do we directly \"touch\" the DOM in React?",
+          "options": [
+            "When we need to listen to an event",
+            "When we need to change the UI",
+            "When we need to add styles",
+            "Almost never"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "In what situation do we use a callback to update state?",
+          "options": [
+            "When updating the state will be slow",
+            "When the updated state is very data-intensive",
+            "When the state update should happen faster",
+            "When the new state depends on the previous state"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "If we pass a function to useState, when will that function be called?",
+          "options": [
+            "On each re-render",
+            "Each time we update the state",
+            "Only on the initial render",
+            "The first time we update the state"
+          ],
+          "correctOption": 2,
+          "points": 30
+        },
+        {
+          "question": "Which hook to use for an API request on the component's initial render?",
+          "options": [
+            "useState",
+            "useEffect",
+            "useRef",
+            "useReducer"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of React Portals in advanced ReactJS development?",
+          "options": [
+            "To create dynamic animations",
+            "To render components outside the DOM hierarchy",
+            "To optimize rendering performance",
+            "To handle state management"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is NOT a way to manage global state in advanced ReactJS applications?",
+          "options": [
+            "Context API",
+            "Redux",
+            "MobX",
+            "useState hook"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "In React, what is the purpose of the useMemo hook?",
+          "options": [
+            "To trigger side effects after rendering",
+            "To memoize expensive calculations",
+            "To manage component lifecycle",
+            "To handle asynchronous operations"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which React feature is used for lazy loading components in advanced ReactJS applications?",
+          "options": [
+            "Dynamic import",
+            "React Suspense",
+            "Higher-order components",
+            "Redux"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which variables should go into the useEffect dependency array?",
+          "options": [
+            "Usually none",
+            "All our state variables",
+            "All state and props referenced in the effect",
+            "All variables needed for clean up"
+          ],
+          "correctOption": 2,
+          "points": 30
+        },
+        {
+          "question": "How does React Router help in advanced ReactJS development?",
+          "options": [
+            "By managing application state",
+            "By optimizing rendering performance",
+            "By handling routing and navigation",
+            "By simplifying CSS styling"
+          ],
+          "correctOption": 2,
+          "points": 30
+        },
+        {
+          "question": "What is the purpose of the React.StrictMode component in advanced ReactJS development?",
+          "options": [
+            "To enforce strict type checking",
+            "To enable concurrent mode",
+            "To perform a deep comparison during state updates",
+            "To identify and highlight potential problems in components"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "Which tool is commonly used for server-side rendering in advanced ReactJS applications?",
+          "options": [
+            "Next.js",
+            "Redux",
+            " GraphQL",
+            "Styled Components"
+          ],
+          "correctOption": 0,
+          "points": 30
+        },
+        {
+          "question": "An effect will always run on the initial render.",
+          "options": [
+            "True",
+            "It depends on the dependency array",
+            "False",
+            "In depends on the code in the effect"
+          ],
+          "correctOption": 0,
+          "points": 30
+        },
+        {
+          "question": "When will an effect run if it doesn't have a dependency array?",
+          "options": [
+            "Only when the component mounts",
+            "Only when the component unmounts",
+            "The first time the component re-renders",
+            "Each time the component is re-rendered"
+          ],
+          "correctOption": 3,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "NodeJS",
+      "questions": [
+        {
+          "question": "What is Node.js primarily used for in backend development?",
+          "options": [
+            "Frontend rendering",
+            "Database management",
+            "Server-side scripting",
+            "CSS styling"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which module in Node.js is commonly used for building web servers?",
+          "options": [
+            "http",
+            "fs",
+            "path",
+            "os"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "What does Express.js provide on top of Node.js for backend development?",
+          "options": [
+            "Database management",
+            "Frontend frameworks",
+            "Middleware for routing",
+            "Templating engines"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "In Express.js, what does the app.use() function do?",
+          "options": [
+            "Defines a route",
+            "Mounts middleware",
+            "Sends an HTTP response",
+            "Defines a request parameter"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which npm package is commonly used for environment variable management in Node.js applications?",
+          "options": [
+            "config",
+            "dotenv",
+            "express-env",
+            "envconfig"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the character code that is used in computers but does not have provisions for kanji characters?",
+          "options": [
+            "ASCII code",
+            "EUC",
+            "Unicode",
+            "Shift JIS code"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of middleware in Express.js?",
+          "options": [
+            "To define routes",
+            "To manage database connections",
+            "To process HTTP requests and responses",
+            "To render HTML templates"
+          ],
+          "correctOption": 2,
+          "points": 30
+        },
+        {
+          "question": "What is the purpose of the Express Router?",
+          "options": [
+            "To handle frontend routing",
+            "To define middleware",
+            "To organize backend routes",
+            "To manage database queries"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "Which npm package is commonly used for handling authentication in Node.js applications?",
+          "options": [
+            "bcrypt",
+            "passport",
+            "jsonwebtoken",
+            "express-session"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "What is the purpose of the body-parser middleware in Express.js?",
+          "options": [
+            "To parse JSON data from the request body",
+            "To parse URL-encoded data from the request body",
+            "To parse HTML data from the request body",
+            "To parse XML data from the request body"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "Which method of the Response object in Express.js is used to send JSON data to the client?",
+          "options": [
+            "res.json()",
+            "res.sendJSON()",
+            "res.send()",
+            "res.render()"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "In Express.js, what is the purpose of the next() function in middleware?",
+          "options": [
+            "To terminate the request",
+            "To send a response to the client",
+            "To pass control to the next middleware",
+            "To restart the server"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "Which npm package is commonly used for testing Express.js applications?",
+          "options": [
+            "Jest",
+            "Mocha",
+            "Chai",
+            "Supertest"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "What does the app.set() method in Express.js do?",
+          "options": [
+            "Defines a route",
+            "Sets an environment variable",
+            "Configures application settings",
+            "Installs middleware"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "Which of the following is NOT a valid route parameter in Express.js?",
+          "options": [
+            ":id",
+            ":name",
+            ":query",
+            ":query"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "How do you handle errors in Express.js middleware?",
+          "options": [
+            "Using try...catch blocks",
+            "Passing errors to the next middleware",
+            "Using the res.error() function",
+            "Redirecting to an error page"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "Which npm package is commonly used for logging in Node.js applications?",
+          "options": [
+            "log4js",
+            "morgan",
+            "winston",
+            "logger"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "How do you create a route parameter in Express.js?",
+          "options": [
+            "By using curly braces {}",
+            "By using square brackets []",
+            "By using parentheses ()",
+            "By using angle brackets <>"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "What is the purpose of the res.status() method in Express.js?",
+          "options": [
+            "To set the HTTP status code of the response",
+            "To send a response to the client",
+            "To define middleware",
+            "To handle errors"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "Which npm package is commonly used for data validation in Node.js applications?",
+          "options": [
+            "express-validator",
+            "validate.js",
+            "joi",
+            "yup"
+          ],
+          "correctOption": 2,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Typescript",
+      "questions": [
+        {
+          "question": "What is TypeScript primarily used for in React and Express.js development?",
+          "options": [
+            "Database management",
+            "Frontend styling",
+            "Static type-checking",
+            "Server-side rendering"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which of the following statements about TypeScript is true?",
+          "options": [
+            " It's a superset of JavaScript",
+            " It's a replacement for JavaScript",
+            " It's incompatible with JavaScript",
+            "t's used only for frontend development"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "In TypeScript, what keyword is used to define a variable with a specific type in React components?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            ":type"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "Which TypeScript feature helps catch potential runtime errors during development in React applications?",
+          "options": [
+            "Type inference",
+            "Type annotations",
+            "Interfaces",
+            "Enums"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "In TypeScript, what is the purpose of an interface in React component development?",
+          "options": [
+            "To define the appearance of the component",
+            "To define the structure of an object",
+            "To manage state",
+            "To handle routing"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which TypeScript feature allows you to define custom types that can be reused throughout the codebase in Express.js?",
+          "options": [
+            "Enums",
+            "Interfaces",
+            "Type aliases",
+            "Union types"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which command is commonly used to compile TypeScript code into JavaScript in React and Express.js projects?",
+          "options": [
+            "tsc",
+            "ts.compoile",
+            "transpile",
+            "ts-node"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "In TypeScript, what is the purpose of a union type in React component props?",
+          "options": [
+            "To allow multiple component states",
+            "To restrict prop values to a specific set",
+            "To define default prop values",
+            "To handle component lifecycle methods"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which TypeScript feature allows you to create a new type from one or more existing types in React and Express.js?",
+          "options": [
+            "Interfaces",
+            "Enums",
+            "Union types",
+            "Type inference"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "How does TypeScript help improve code maintenance in React and Express.js projects?",
+          "options": [
+            "By automatically generating documentation",
+            "By enforcing stricter coding standards",
+            "By providing better code organization tools",
+            "By reducing the likelihood of type-related bugs"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the --strict flag in TypeScript compiler options?",
+          "options": [
+            "To enable strict mode for better error checking",
+            "To disable type checking completely",
+            "To optimize code for performance",
+            "o minify the generated JavaScript"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "Which TypeScript feature allows you to define a set of named constants in React and Express.js?",
+          "options": [
+            "Interfaces",
+            "Generics",
+            "Enums",
+            "Type aliases"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "How does TypeScript help with code documentation in React and Express.js projects?",
+          "options": [
+            "By automatically generating comments based on code structure",
+            "By enforcing strict documentation standards",
+            "By providing tools for generating API documentation",
+            "By embedding documentation directly into the code"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the --esModuleInterop flag in TypeScript compiler options for React projects?",
+          "options": [
+            "To enable interoperability with ECMAScript modules",
+            "To disable interoperability with ECMAScript modules",
+            "To optimize module loading in browsers",
+            "To minify module imports"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the --declaration flag in TypeScript compiler options?",
+          "options": [
+            "To disable generation of declaration files",
+            "To enable source map generation",
+            "To generate declaration files (.d.ts) for sharing with other projects",
+            "To optimize code for production"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which TypeScript feature helps improve code readability and maintainability by providing a way to reuse code in React and Express.js?",
+          "options": [
+            "Interfaces",
+            "Type inference",
+            "Enums",
+            "Generics"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the purpose of the --strictNullChecks flag in TypeScript compiler options?",
+          "options": [
+            "To disable null checks completely",
+            "To enable strict null checks for catching potential null or undefined values",
+            "To optimize code for better performance",
+            "To enforce stricter type checking rules"
+          ],
+          "correctOption": 1,
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "NextJS",
+      "questions": [
+        {
+          "points": 10,
+          "question": "What is the purpose of getStaticPaths in Next.js?",
+          "options": [
+            "To fetch data at build time and generate dynamic routes",
+            "To fetch data at runtime and generate dynamic routes",
+            "To handle client-side routing",
+            "To create static pages with pre-rendered content"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "Which function is used to perform server-side rendering in Next.js?",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "useEffect",
+            "useState"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of Next.js API routes?",
+          "options": [
+            "To define server-side logic for the application",
+            "To handle client-side routing",
+            "To create static pages with pre-rendered content",
+            "To fetch data at runtime and generate dynamic routes"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "Which command is used to create a new Next.js project?",
+          "options": [
+            "create-next-app",
+            "create-react-app",
+            "npm init next-app",
+            "npm init react-app"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the useRouter hook in Next.js?",
+          "options": [
+            "To handle server-side rendering",
+            "To manage client-side routing",
+            "To define API routes",
+            "To fetch data at build time"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "Which function is used to perform data fetching at build time in Next.js?",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "useEffect",
+            "useState"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next/head component in Next.js?",
+          "options": [
+            "To manage global application state",
+            "To handle server-side rendering",
+            "To customize the head section of the HTML document",
+            "To define API routes"
+          ],
+          "correctOption": 2
+        },
+        {
+          "points": 10,
+          "question": "How does Next.js enable automatic code splitting for faster page loading?",
+          "options": [
+            "By optimizing CSS rendering",
+            "By using React.lazy for component loading",
+            "By pre-rendering pages at build time",
+            "By generating separate bundles for each page"
+          ],
+          "correctOption": 3
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next/image component in Next.js?",
+          "options": [
+            "To handle image uploads",
+            "To optimize images for better performance",
+            "To create responsive image galleries",
+            "To manage image caching"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "Which package is used for styling components in Next.js applications?",
+          "options": [
+            "SASS",
+            "CSS Modules",
+            "Styled Components",
+            "Bootstrap"
+          ],
+          "correctOption": 2
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the _app.js file in Next.js?",
+          "options": [
+            "To define global styles and layouts",
+            "To manage authentication logic",
+            "To create API routes",
+            "To handle server-side rendering"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "Which package is commonly used for handling forms in Next.js applications?",
+          "options": [
+            "react-hook-form",
+            "Formik",
+            "react-form",
+            "redux-form"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next.config.js file in Next.js?",
+          "options": [
+            "To define global application settings",
+            "To manage form state",
+            "To handle server-side rendering",
+            "To customize webpack configuration"
+          ],
+          "correctOption": 3
+        },
+        {
+          "points": 10,
+          "question": "Which function is used to fetch data at runtime in Next.js?",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "useEffect",
+            "useState"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the _document.js file in Next.js?",
+          "options": [
+            "To manage global application state",
+            "To define API routes",
+            "To customize the HTML document structure",
+            "To handle server-side rendering"
+          ],
+          "correctOption": 2
+        },
+        {
+          "points": 10,
+          "question": "How does Next.js improve website performance compared to traditional React applications?",
+          "options": [
+            "By optimizing database queries",
+            "By reducing bundle size and improving initial load time",
+            "By improving server-side rendering performance",
+            "By simplifying state management"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "Which package is used for managing state in Next.js applications?",
+          "options": [
+            "Redux",
+            "MobX",
+            "React Context API",
+            "All of the above"
+          ],
+          "correctOption": 3
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next/link component in Next.js?",
+          "options": [
+            "To define API routes",
+            "To handle form submissions",
+            "To create links for client-side navigation",
+            "To manage global application state"
+          ],
+          "correctOption": 2
+        },
+        {
+          "points": 10,
+          "question": "Which lifecycle method is used for data fetching in Next.js?",
+          "options": [
+            "componentDidMount",
+            "getServerSideProps",
+            "getInitialProps",
+            "useEffect"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next/router module in Next.js?",
+          "options": [
+            "To handle server-side rendering",
+            "To manage client-side routing",
+            "To define API routes",
+            "To fetch data at build time"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "Which feature of Next.js allows for automatic code splitting and lazy loading?",
+          "options": [
+            "Dynamic Routes",
+            "getStaticProps",
+            "getServerSideProps",
+            "Link component"
+          ],
+          "correctOption": 0
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next/error component in Next.js?",
+          "options": [
+            "To manage errors in API routes",
+            "To handle form submissions",
+            "To create custom error pages",
+            "To define global application settings"
+          ],
+          "correctOption": 2
+        },
+        {
+          "points": 10,
+          "question": "How does Next.js handle API routes?",
+          "options": [
+            "By using Express.js for server-side routing",
+            "By defining API routes within the pages directory",
+            "By using serverless functions for API endpoints",
+            "By managing API routes through a separate configuration file"
+          ],
+          "correctOption": 2
+        },
+        {
+          "points": 10,
+          "question": "Which function is used to fetch data at runtime and generate dynamic routes in Next.js?",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "useEffect",
+            "useState"
+          ],
+          "correctOption": 1
+        },
+        {
+          "points": 10,
+          "question": "What is the purpose of the next/image component in Next.js?",
+          "options": [
+            "To handle image uploads",
+            "To optimize images for better performance",
+            "To create responsive image galleries",
+            "To manage image caching"
+          ],
+          "correctOption": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Japanese grammar N5",
+      "questions": [
+        {
+          "question": "Which particle is used to indicate the subject of a sentence in Japanese?",
+          "options": [
+            "を (wo)",
+            "は (wa)",
+            "が (ga)",
+            "に (ni)"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle に (ni) in Japanese grammar?",
+          "options": [
+            "Indicates possession",
+            "Marks the location of an action",
+            "Indicates the object of a verb",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate direction or destination in Japanese?",
+          "options": [
+            "で (de)",
+            "と (to)",
+            "から (kara)",
+            "へ (e)"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What does the particle で (de) indicate in Japanese grammar?",
+          "options": [
+            "Indicates possession",
+            "Marks the location where an action takes place",
+            "Indicates the object of a verb",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate the means or method by which an action is performed in Japanese?",
+          "options": [
+            "が (ga)",
+            "と (to)",
+            "で (de)",
+            "に (ni)"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle も (mo) in Japanese grammar?",
+          "options": [
+            "Indicates possession",
+            "Marks the location of an action",
+            "Indicates 'also' or 'too'",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate the time at which an action takes place in Japanese?",
+          "options": [
+            "と (to)",
+            "に (ni)",
+            "で (de)",
+            "から (kara)"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle から (kara) in Japanese grammar?",
+          "options": [
+            "Indicates the starting point of an action",
+            "Marks the location of an action",
+            "Indicates the object of a verb",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate possession in Japanese?",
+          "options": [
+            "が (ga)",
+            "の (no)",
+            "は (wa)",
+            "を (wo)"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle や (ya) in Japanese grammar?",
+          "options": [
+            "Indicates the means or method by which an action is performed",
+            "Lists examples or alternatives",
+            "Marks the location of an action",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate direction toward a specific location in Japanese?",
+          "options": [
+            "で (de)",
+            "に (ni)",
+            "から (kara)",
+            "へ (e)"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle もう (mou) in Japanese grammar?",
+          "options": [
+            "Indicates the means or method by which an action is performed",
+            "Indicates 'already'",
+            "Marks the location of an action",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate the direct object of a verb in Japanese?",
+          "options": [
+            "が (ga)",
+            "を (wo)",
+            "に (ni)",
+            "へ (e)"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle と (to) in Japanese grammar?",
+          "options": [
+            "Indicates direction or destination",
+            "Lists alternatives or partners",
+            "Indicates the means or method by which an action is performed",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate the location where an action takes place in Japanese?",
+          "options": [
+            "が (ga)",
+            "に (ni)",
+            "で (de)",
+            "と (to)"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle よ (yo) in Japanese grammar?",
+          "options": [
+            "Marks the location of an action",
+            "Indicates 'already'",
+            "Indicates the speaker's assertion or emphasis",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate the subject of a sentence in Japanese?",
+          "options": [
+            "を (wo)",
+            "は (wa)",
+            "が (ga)",
+            "に (ni)"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle も (mo) in Japanese grammar?",
+          "options": [
+            " Indicates direction or destination",
+            "Lists examples or alternatives",
+            "Indicates 'also' or 'too'",
+            " Marks the topic of a sentence"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle より (yori) in Japanese grammar?",
+          "options": [
+            "Indicates possession",
+            "Indicates 'from'",
+            "Indicates direction or destination",
+            "Indicates comparison or preference"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What is the function of the particle ので (node) in Japanese grammar?",
+          "options": [
+            "Indicates because...",
+            "Indicates from..",
+            "Indicates together with..",
+            "Marks the topic of a sentence"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "Which particle is used to indicate the means or method by which an action is performed in Japanese?",
+          "options": [
+            "が (ga)",
+            "と (to)",
+            "で (de)",
+            "に (ni)"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "What is the common Japanese greeting meaning 'hello'?",
+          "options": [
+            "こんにちは (konnichiwa)",
+            "さようなら (sayonara)",
+            "ありがとう (arigatou)",
+            "おはようございます (ohayou gozaimasu)"
+          ],
+          "correctOption": 0
+        },
+        {
+          "question": "Which phrase means 'thank you' in Japanese?",
+          "options": [
+            "はい (hai)",
+            "すみません (sumimasen)",
+            "おはようございます (ohayou gozaimasu)",
+            "ありがとう (arigatou)"
+          ],
+          "correctOption": 3
+        },
+        {
+          "question": "What is the Japanese word for 'yes'?",
+          "options": [
+            "いいえ (iie)",
+            "はい (hai)",
+            "どうぞ (douzo)",
+            "すみません (sumimasen)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "Which phrase means 'I'm sorry' in Japanese?",
+          "options": [
+            "ありがとう (arigatou)",
+            "さようなら (sayonara)",
+            "すみません (sumimasen)",
+            "おはようございます (ohayou gozaimasu)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "What is the Japanese word for 'goodbye'?",
+          "options": [
+            "はい (hai)",
+            "ありがとう (arigatou)",
+            "さようなら (sayonara)",
+            "すみません (sumimasen)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "Which phrase means 'please' in Japanese?",
+          "options": [
+            "おねがいします (onegaishimasu)",
+            "どうぞ (douzo)",
+            "いただきます (itadakimasu)",
+            "すみません (sumimasen)"
+          ],
+          "correctOption": 0
+        },
+        {
+          "question": "What is the Japanese phrase for 'excuse me'?",
+          "options": [
+            "さようなら (sayonara)",
+            "すみません (sumimasen)",
+            "ありがとう (arigatou)",
+            "おねがいします (onegaishimasu)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "Which phrase means 'I don't understand' in Japanese?",
+          "options": [
+            "わかりません (wakarimasen)",
+            "おはようございます (ohayou gozaimasu)",
+            "どうぞ (douzo)",
+            "すみません (sumimasen)"
+          ],
+          "correctOption": 0
+        },
+        {
+          "question": "What is the Japanese word for 'good morning'?",
+          "options": [
+            "ありがとう (arigatou)",
+            "おはようございます (ohayou gozaimasu)",
+            "さようなら (sayonara)",
+            "こんにちは (konnichiwa)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "Which phrase means 'you're welcome' in Japanese?",
+          "options": [
+            "どうぞ (douzo)",
+            "いいえ (iie)",
+            "どういたしまして (douitashimashite)",
+            "おはようございます (ohayou gozaimasu)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "What is the Japanese word for 'good night'?",
+          "options": [
+            "こんばんは (konbanwa)",
+            "おやすみなさい (oyasumi nasai)",
+            "ありがとう (arigatou)",
+            "はい (hai)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "Which phrase means 'please wait' in Japanese?",
+          "options": [
+            "わかりません (wakarimasen)",
+            "おねがいします (onegaishimasu)",
+            "まってください (matte kudasai)",
+            "どうぞ (douzo)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "What is the Japanese phrase for 'I'm hungry'?",
+          "options": [
+            "おなかがすいた (onaka ga suita)",
+            "おねがいします (onegaishimasu)",
+            "わかりません (wakarimasen)",
+            "いただきます (itadakimasu)"
+          ],
+          "correctOption": 0
+        },
+        {
+          "question": "Which phrase means 'I'm thirsty' in Japanese?",
+          "options": [
+            "おなかがすいた (onaka ga suita)",
+            "のみたいです (nomitai desu)",
+            "わかりません (wakarimasen)",
+            "おなかがすきました (onaka ga sukimashita)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "What is the Japanese phrase for 'I'm cold'?",
+          "options": [
+            "あついです (atsui desu)",
+            "さむいです (samui desu)",
+            "のみたいです (nomitai desu)",
+            "はやいです (hayai desu)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "Which phrase means 'I'm hot' in Japanese?",
+          "options": [
+            "のみたいです (nomitai desu)",
+            "さむいです (samui desu)",
+            "あついです (atsui desu)",
+            "はやいです (hayai desu)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "What is the Japanese word for 'yes'?",
+          "options": [
+            "はい (hai)",
+            "いいえ (iie)",
+            "どうぞ (douzo)",
+            "ありがとう (arigatou)"
+          ],
+          "correctOption": 0
+        },
+        {
+          "question": "Which phrase means 'no' in Japanese?",
+          "options": [
+            "はい (hai)",
+            "ありがとう (arigatou)",
+            "すみません (sumimasen)",
+            "いいえ (iie)"
+          ],
+          "correctOption": 3
+        },
+        {
+          "question": "What is the Japanese word for 'please come in'?",
+          "options": [
+            "おねがいします (onegaishimasu)",
+            "はい (hai)",
+            "どうぞ (douzo)",
+            "いただきます (itadakimasu)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "Which phrase means 'please sit down' in Japanese?",
+          "options": [
+            "すみません (sumimasen)",
+            "どうぞ (douzo)",
+            "おねがいします (onegaishimasu)",
+            "おかけください (okake kudasai)"
+          ],
+          "correctOption": 3
+        },
+        {
+          "question": "What is the Japanese phrase for 'please wait a moment'?",
+          "options": [
+            "わかりません (wakarimasen)",
+            "もういちどおねがいします (mou ichido onegaishimasu)",
+            "ちょっとまってください (chotto matte kudasai)",
+            "ありがとう (arigatou)"
+          ],
+          "correctOption": 2
+        },
+        {
+          "question": "Which phrase means 'what is this?' in Japanese?",
+          "options": [
+            "これはなんですか (kore wa nan desu ka)",
+            "それはなんですか (sore wa nan desu ka)",
+            "あれはなんですか (are wa nan desu ka)",
+            "すみません (sumimasen)"
+          ],
+          "correctOption": 0
+        },
+        {
+          "question": "What is the Japanese phrase for 'I'm sorry, I don't understand'?",
+          "options": [
+            "ごめんなさい、わかりません (gomen nasai, wakarimasen)",
+            "すみません、わかりません (sumimasen, wakarimasen)",
+            "ごめんなさい、わかりませんでした (gomen nasai, wakarimasen deshita)",
+            "すみません、わかりませんでした (sumimasen, wakarimasen deshita)"
+          ],
+          "correctOption": 3
+        },
+        {
+          "question": "Which phrase means 'can you speak English?' in Japanese?",
+          "options": [
+            "日本語を話せますか？ (Nihongo o hanasemasu ka?)",
+            "英語を話せますか？ (Eigo o hanasemasu ka?)",
+            "日本語をわかりますか？ (Nihongo o wakarimasu ka?)",
+            "英語をわかりますか？ (Eigo o wakarimasu ka?)"
+          ],
+          "correctOption": 1
+        },
+        {
+          "question": "What is the Japanese phrase for 'please write it down'?",
+          "options": [
+            "書いてください (kaite kudasai)",
+            "読んでください (yonde kudasai)",
+            "教えてください (oshiete kudasai)",
+            "聞いてください (kiite kudasai)"
+          ],
+          "correctOption": 0
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Hardware 1: Binary Representation",
+      "questions": [
+        {
+          "question": "How many times is the number of bit patterns that can be represented with 32 bits larger than the number that can be represented with 24 bits",
+          "options": [
+            "8",
+            "16",
+            "128",
+            "256"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "Concerning four symbols of prefixes that show multiplication by the power of 10, namely, G (Giga), k (Kilo), M (Mega), and T (Tera), which of the following shows the correct magnitude relation between them?",
+          "options": [
+            "G < k < M < T",
+            "k < G < T < M",
+            "k < M < G < T ",
+            "M < T < G < k"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the decimal number that is equal to the binary number 101.11? ",
+          "options": [
+            "5.11",
+            "5.3",
+            "5.55",
+            "5.75"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What's the value of 2**-1, 2**-2, 2**-3, 2**-4",
+          "options": [
+            "0.75, 0.5, 0.25, 0.125",
+            "0.5, 0.25, 0.125, 0.0625",
+            "1, 0.5, 0.3, 0.2, 0.01",
+            "0.5, 0.25, 0.1, 0.02"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the combination of binary, octal, decimal, and hexadecimal numbers that represent the same number? [Binary / Octal / Decimal / Hex]",
+          "options": [
+            "[111, 10, 8, 8]",
+            "[1010, 12, 10, A]",
+            "[1100100, 256, 100, 64]",
+            "[11111111, 377, 256, FF]"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the character code that is used in computers but does not have provisions for kanji characters?",
+          "options": [
+            "ASCII code",
+            "EUC",
+            "Unicode",
+            "Shift JIS code"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "When to use derived state?",
+          "options": [
+            "Whenever the state should not trigger a re-render",
+            "Whenever the state can be synchronized with an effect",
+            "Whenever the state should be accessible to all components",
+            "Whenever the state can be computed from another state variable"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "How many bytes are required when a 6-digit signed decimal number is represented in packed decimal?",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "7"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "Which of the following is the decimal number -5.625 that is represented as a binary number using the 8-bit fixed point format? Here, the position of the radix point is between the 4th bit and the 5th bit, and 2's complement is used for negative numbers. [8|7|6|5|(radix)|4|3|2|1]",
+          "options": [
+            "01001100",
+            "10100101",
+            "10100110",
+            "11010011"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "When a numerical value is represented in the 16-bit floating point format, which of the following is the normalized representation of the decimal number 0.25? (2's complement for exponent)",
+          "options": [
+            "[0, 0001, 10000000000]",
+            "[0, 1001, 10000000000]",
+            "[1, 0001, 10000000000]",
+            "[0, 1111, 10000000000]"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "In order to obtain 32 times of a positive integer number that is represented in binary, how many bits should be shifted to the left? Here, there should not be any overflow. ",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "32"
+          ],
+          "correctOption": 1,
+          "points": 30
+        },
+        {
+          "question": "How to convert the integer part of decimal number into a binary?",
+          "options": [
+            "Repeatly divide by 2 until quotient becomes 0, arrange reminder of calculation results from the back",
+            "Repeatly divide by 10 until quotient becomes 0, arrange reminder of calculation results from the front",
+            "Repeatly divide by 2 until quotient becomes 0, arrange reminder of calculation results from the front",
+            "Repeatly divide by 10 until quotient becomes 0, arrange reminder of calculation results from the back"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "How to convert the radix part of decimal number into a binary?",
+          "options": [
+            "Constinuosly multiply the radix part by 10 until the radix part of the calculation result becomes 0, and arrangle from the back",
+            "Constinuosly multiply the radix part by 2 until the radix part of the calculation result becomes 0, and arrangle from the back",
+            "Constinuosly multiply the radix part by 10 until the radix part of the calculation result becomes 0, and arrangle from the front",
+            "Constinuosly multiply the radix part by 2 until the radix part of the calculation result becomes 0, and arrangle from the front"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "How to calculate the information amount of n bits? (number of types possible)",
+          "options": [
+            "2^n-1",
+            "n^2",
+            "2^n",
+            "None, it's depends on the situation"
+          ],
+          "correctOption": 2,
+          "points": 30
+        },
+        {
+          "question": "Zoned decimal numbers use the following values as A=blank B=positive sign C=negative sign",
+          "options": [
+            "A=1000 B=0 C=1",
+            "A=1111 B=1 C=1",
+            "A=1111 B=1100 C=1101",
+            "A=1111 B=1101 C=1100"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "Zoned decimal numbers store the sign on",
+          "options": [
+            "Higher 4 bits of lowest digit",
+            "Lowest 4 bits of highest digit",
+            "Higher 4 bits of highest digit",
+            "Lowest 4 bits of lowest digit"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "Packed decimal numbers store the sign on",
+          "options": [
+            "Higher 4 bits of lowest digit",
+            "Lowest 4 bits of highest digit",
+            "Higher 4 bits of highest digit",
+            "Lowest 4 bits of lowest digit"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "To get 1's complement of a binary you need to:",
+          "options": [
+            "Substract highest possible value of that number of digits from the number",
+            "Substract 1000 from the number",
+            "Substract the number to the highest possible value of that number of digits",
+            "Substract 11111 from the number"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "In floating point representation, the exponent has a excess method is:",
+          "options": [
+            "The exponent is calculated by substracting the biased value",
+            "The exponent is calculated by adding the biased value (IEEE - 127 and IBM 64)",
+            "The exponent is calculated by adding the biased value",
+            "The exponent is calculated by substracting the biased value (IEEE - 127 and IBM 64)"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "What are the error types in computations?",
+          "options": [
+            "Overflow, underflow, loss of significating digits, cancelation of trailing digits",
+            "Rounding errors, Overflow, undeflow",
+            "Loss of trailing digits and Overflow",
+            "Loss of trailing digits, Overflow and Underflow, Rounding errors, Cancellation of significant digits"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "What is the relative error?",
+          "options": [
+            "|True value - computated value(including errors)| / |True value|",
+            "|True value - computated value(including errors)|",
+            "None",
+            "|True value - computated value(including errors)| /  |computated value(including errors)|"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "What is the absolute error?",
+          "options": [
+            "|True value - computated value(including errors)| / |True value|",
+            "None",
+            "|True value - computated value(including errors)|",
+            "|True value - computated value(including errors)| /  |computated value(including errors)|"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "In Arithmetic shift:",
+          "options": [
+            "Shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Do not shift the sign bit, swap the truncate extra bits shifted to the start, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty position if shift left, else the same as sign bit"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "In logical shift:",
+          "options": [
+            "Shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Shift the sign bit, swap the truncate extra bits shifted to the start, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty position if shift left, else the same as sign bit"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "In Arithmetic shift, shifting left changes the value:",
+          "options": [
+            "The value becomes 2^-n times of the original number",
+            "The value becomes 2^n times of the original number",
+            "The value becomes n times of the original number",
+            "None"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "In Arithmetic shift, shifting right changes the value:",
+          "options": [
+            "The value becomes 2^-n times of the original number",
+            "None",
+            "The value becomes 2 times of the original number",
+            "The value becomes 1/n times of the original number"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "What's a rotation shift?",
+          "options": [
+            "A type of arithmetic shift where the bits shifted out are circulated to the empty positions",
+            "A type of logical shift where the bits shifted out are circulated to the empty positions",
+            "None",
+            "A unique shifting operation where where the bits shifted out are circulated to the empty positions"
+          ],
+          "correctOption": 1,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Hardware 1: Control Unit",
+      "questions": [
+        {
+          "question": "How many times is the number of bit patterns that can be represented with 32 bits larger than the number that can be represented with 24 bits",
+          "options": [
+            "8",
+            "16",
+            "128",
+            "256"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "Concerning four symbols of prefixes that show multiplication by the power of 10, namely, G (Giga), k (Kilo), M (Mega), and T (Tera), which of the following shows the correct magnitude relation between them?",
+          "options": [
+            "G < k < M < T",
+            "k < G < T < M",
+            "k < M < G < T ",
+            "M < T < G < k"
+          ],
+          "correctOption": 2,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the decimal number that is equal to the binary number 101.11? ",
+          "options": [
+            "5.11",
+            "5.3",
+            "5.55",
+            "5.75"
+          ],
+          "correctOption": 3,
+          "points": 10
+        },
+        {
+          "question": "What's the value of 2**-1, 2**-2, 2**-3, 2**-4",
+          "options": [
+            "0.75, 0.5, 0.25, 0.125",
+            "0.5, 0.25, 0.125, 0.0625",
+            "1, 0.5, 0.3, 0.2, 0.01",
+            "0.5, 0.25, 0.1, 0.02"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the combination of binary, octal, decimal, and hexadecimal numbers that represent the same number? [Binary / Octal / Decimal / Hex]",
+          "options": [
+            "[111, 10, 8, 8]",
+            "[1010, 12, 10, A]",
+            "[1100100, 256, 100, 64]",
+            "[11111111, 377, 256, FF]"
+          ],
+          "correctOption": 1,
+          "points": 10
+        },
+        {
+          "question": "Which of the following is the character code that is used in computers but does not have provisions for kanji characters?",
+          "options": [
+            "ASCII code",
+            "EUC",
+            "Unicode",
+            "Shift JIS code"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "When to use derived state?",
+          "options": [
+            "Whenever the state should not trigger a re-render",
+            "Whenever the state can be synchronized with an effect",
+            "Whenever the state should be accessible to all components",
+            "Whenever the state can be computed from another state variable"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "How many bytes are required when a 6-digit signed decimal number is represented in packed decimal?",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "7"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "Which of the following is the decimal number -5.625 that is represented as a binary number using the 8-bit fixed point format? Here, the position of the radix point is between the 4th bit and the 5th bit, and 2's complement is used for negative numbers. [8|7|6|5|(radix)|4|3|2|1]",
+          "options": [
+            "01001100",
+            "10100101",
+            "10100110",
+            "11010011"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "When a numerical value is represented in the 16-bit floating point format, which of the following is the normalized representation of the decimal number 0.25? (2's complement for exponent)",
+          "options": [
+            "[0, 0001, 10000000000]",
+            "[0, 1001, 10000000000]",
+            "[1, 0001, 10000000000]",
+            "[0, 1111, 10000000000]"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "In order to obtain 32 times of a positive integer number that is represented in binary, how many bits should be shifted to the left? Here, there should not be any overflow. ",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "32"
+          ],
+          "correctOption": 1,
+          "points": 30
+        },
+        {
+          "question": "How to convert the integer part of decimal number into a binary?",
+          "options": [
+            "Repeatly divide by 2 until quotient becomes 0, arrange reminder of calculation results from the back",
+            "Repeatly divide by 10 until quotient becomes 0, arrange reminder of calculation results from the front",
+            "Repeatly divide by 2 until quotient becomes 0, arrange reminder of calculation results from the front",
+            "Repeatly divide by 10 until quotient becomes 0, arrange reminder of calculation results from the back"
+          ],
+          "correctOption": 0,
+          "points": 10
+        },
+        {
+          "question": "How to convert the radix part of decimal number into a binary?",
+          "options": [
+            "Constinuosly multiply the radix part by 10 until the radix part of the calculation result becomes 0, and arrangle from the back",
+            "Constinuosly multiply the radix part by 2 until the radix part of the calculation result becomes 0, and arrangle from the back",
+            "Constinuosly multiply the radix part by 10 until the radix part of the calculation result becomes 0, and arrangle from the front",
+            "Constinuosly multiply the radix part by 2 until the radix part of the calculation result becomes 0, and arrangle from the front"
+          ],
+          "correctOption": 3,
+          "points": 30
+        },
+        {
+          "question": "How to calculate the information amount of n bits? (number of types possible)",
+          "options": [
+            "2^n-1",
+            "n^2",
+            "2^n",
+            "None, it's depends on the situation"
+          ],
+          "correctOption": 2,
+          "points": 30
+        },
+        {
+          "question": "Zoned decimal numbers use the following values as A=blank B=positive sign C=negative sign",
+          "options": [
+            "A=1000 B=0 C=1",
+            "A=1111 B=1 C=1",
+            "A=1111 B=1100 C=1101",
+            "A=1111 B=1101 C=1100"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "Zoned decimal numbers store the sign on",
+          "options": [
+            "Higher 4 bits of lowest digit",
+            "Lowest 4 bits of highest digit",
+            "Higher 4 bits of highest digit",
+            "Lowest 4 bits of lowest digit"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "Packed decimal numbers store the sign on",
+          "options": [
+            "Higher 4 bits of lowest digit",
+            "Lowest 4 bits of highest digit",
+            "Higher 4 bits of highest digit",
+            "Lowest 4 bits of lowest digit"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "To get 1's complement of a binary you need to:",
+          "options": [
+            "Substract highest possible value of that number of digits from the number",
+            "Substract 1000 from the number",
+            "Substract the number to the highest possible value of that number of digits",
+            "Substract 11111 from the number"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "In floating point representation, the exponent has a excess method is:",
+          "options": [
+            "The exponent is calculated by substracting the biased value",
+            "The exponent is calculated by adding the biased value (IEEE - 127 and IBM 64)",
+            "The exponent is calculated by adding the biased value",
+            "The exponent is calculated by substracting the biased value (IEEE - 127 and IBM 64)"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "What are the error types in computations?",
+          "options": [
+            "Overflow, underflow, loss of significating digits, cancelation of trailing digits",
+            "Rounding errors, Overflow, undeflow",
+            "Loss of trailing digits and Overflow",
+            "Loss of trailing digits, Overflow and Underflow, Rounding errors, Cancellation of significant digits"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "What is the relative error?",
+          "options": [
+            "|True value - computated value(including errors)| / |True value|",
+            "|True value - computated value(including errors)|",
+            "None",
+            "|True value - computated value(including errors)| /  |computated value(including errors)|"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "What is the absolute error?",
+          "options": [
+            "|True value - computated value(including errors)| / |True value|",
+            "None",
+            "|True value - computated value(including errors)|",
+            "|True value - computated value(including errors)| /  |computated value(including errors)|"
+          ],
+          "correctOption": 2,
+          "points": 20
+        },
+        {
+          "question": "In Arithmetic shift:",
+          "options": [
+            "Shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Do not shift the sign bit, swap the truncate extra bits shifted to the start, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty position if shift left, else the same as sign bit"
+          ],
+          "correctOption": 3,
+          "points": 20
+        },
+        {
+          "question": "In logical shift:",
+          "options": [
+            "Shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty positions",
+            "Shift the sign bit, swap the truncate extra bits shifted to the start, store 0 in empty positions",
+            "Do not shift the sign bit, truncate extra bits shifted out, store 0 in empty position if shift left, else the same as sign bit"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "In Arithmetic shift, shifting left changes the value:",
+          "options": [
+            "The value becomes 2^-n times of the original number",
+            "The value becomes 2^n times of the original number",
+            "The value becomes n times of the original number",
+            "None"
+          ],
+          "correctOption": 1,
+          "points": 20
+        },
+        {
+          "question": "In Arithmetic shift, shifting right changes the value:",
+          "options": [
+            "The value becomes 2^-n times of the original number",
+            "None",
+            "The value becomes 2 times of the original number",
+            "The value becomes 1/n times of the original number"
+          ],
+          "correctOption": 0,
+          "points": 20
+        },
+        {
+          "question": "What's a rotation shift?",
+          "options": [
+            "A type of arithmetic shift where the bits shifted out are circulated to the empty positions",
+            "A type of logical shift where the bits shifted out are circulated to the empty positions",
+            "None",
+            "A unique shifting operation where where the bits shifted out are circulated to the empty positions"
+          ],
+          "correctOption": 1,
+          "points": 20
+        }
+      ]
+    }
+  ],
+  "testList": [
+    {
+      "name": "React",
+      "id": "0"
+    },
+    {
+      "name": "NodeJS",
+      "id": "1"
+    },
+    {
+      "name": "Typescript",
+      "id": "2"
+    },
+    {
+      "name": "NextJS",
+      "id": "3"
+    },
+    {
+      "name": "Japanese N5",
+      "id": "4"
+    },
+    {
+      "name": "Hardware 1: Binary Representation",
+      "id": "5"
+    },
+    {
+      "name": "Hardware 1: Control Unit",
+      "id": "6"
+    }
+  ],
+  "scoreList": [
+    {
+      "id": "0",
+      "score": 50
+    },
+    {
+      "id": "1",
+      "score": "90.00"
+    },
+    {
+      "id": "4",
+      "score": "80.43"
+    },
+    {
+      "id": "0",
+      "score": "97.22"
+    }
+  ]
+}
