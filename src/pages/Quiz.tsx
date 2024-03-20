@@ -1,34 +1,54 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Question from "../features/Question";
-import { QuestionType, shuffleArray } from "../utils/shuffleArray";
 import Progress from "../ui/Progress";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { useMutation, useQuery } from "react-query";
+import { getQuizDetails, postScore } from "../services/apiExam";
+import Loader from "../ui/Loading";
+import { QuestionType } from "../utils/shuffleArray";
 
-const API_URL = "http://localhost:3000/tests/";
-const POST_URL = "http://localhost:3000/scoreList";
-
+type QuizType = {
+  questions: QuestionType[];
+  title: string;
+};
+type Error = {
+  message: string;
+};
 function Quiz() {
-  const [questions, setQuestions] = useState<QuestionType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [hasAnswered, setHasAnswered] = useState(false);
-  const [title, setTitle] = useState("");
   const [score, setScore] = useState(0);
   const { quizId } = useParams();
+  const { isLoading, error, data } = useQuery<QuizType, Error>({
+    queryKey: ["quiz", quizId],
+    queryFn: () => getQuizDetails(Number(quizId)),
+  });
+  const { mutate: postQuizResult } = useMutation(
+    () =>
+      postScore({
+        score,
+        questionsLength: data?.questions.length || 0,
+        quizId: Number(quizId),
+      }),
+    {
+      onSuccess: () => navigate(`/quiz-results/${quizId}`),
+    }
+  );
   const navigate = useNavigate();
 
-  async function postScore() {
-    const percentScore = ((score * 100) / questions.length).toFixed(2);
-    await fetch(POST_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: quizId, score: percentScore }),
-    });
+  if (isLoading) {
+    return <Loader message="Loading quiz..." />;
   }
 
+  if (error) {
+    return <span>Error: {error.message}</span>;
+  }
+
+  const { questions, title } = data || {};
+
   function handleNextQuestion() {
-    if (currentQuestion + 1 >= questions.length) {
-      postScore();
-      navigate(`/quiz-results/${quizId}`);
+    if (questions && currentQuestion + 1 >= questions.length) {
+      postQuizResult();
     }
     setCurrentQuestion((previousValue) => previousValue + 1);
     setHasAnswered(false);
@@ -40,23 +60,6 @@ function Quiz() {
     }
     setHasAnswered(true);
   }
-
-  useEffect(function () {
-    async function getQuestions() {
-      try {
-        const response = await fetch(`${API_URL}${quizId}`);
-        const data = await response.json();
-        if (!data) {
-          throw new Error("Failed to fetch questions");
-        }
-        setQuestions(shuffleArray(data.questions));
-        setTitle(data.title);
-      } catch (err) {
-        console.error("error while fetching", err);
-      }
-    }
-    getQuestions();
-  }, []);
 
   return (
     <div className="h-svh flex flex-col bg-indigo-50">
@@ -100,7 +103,7 @@ function Quiz() {
       <div className="p-5 flex-none">
         <Progress
           currentQuestion={currentQuestion}
-          numberOfQuestions={questions.length}
+          numberOfQuestions={questions?.length || 0}
         />
       </div>
       <div className="p-3 grow">

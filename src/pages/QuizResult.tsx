@@ -1,21 +1,32 @@
-import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import educationImage from "../../public/undraw_education.svg";
+import { useQuery } from "react-query";
+import { getScore } from "../services/apiExam";
+import Loading from "../ui/Loading";
 
-const API_URL = "http://localhost:3000/scoreList/";
+type Score = {
+  score: number;
+};
+
+type Error = {
+  message: string;
+};
 
 function QuizResult() {
-  const [score, setScore] = useState(0);
   const { quizId } = useParams();
+  const { data, isLoading, error } = useQuery<Score, Error>({
+    queryFn: () => getScore(Number(quizId)),
+  });
 
-  useEffect(() => {
-    async function getScore() {
-      const response = await fetch(`${API_URL}${quizId}`);
-      const data = (await response.json()) as { score: number };
-      setScore(data?.score);
-    }
-    getScore();
-  }, []);
+  if (isLoading) {
+    return <Loading message="Loading results..." />;
+  }
+
+  if (error) {
+    return <span>Error: {error.message}</span>;
+  }
+
+  const { score } = data || {};
 
   return (
     <div className="h-svh flex flex-col bg-indigo-50">
@@ -31,14 +42,16 @@ function QuizResult() {
           className="h-96 w-96"
         />
         <h1 className="font-primaryFont text-3xl font-bold">
-          You scored {score}%
+          You scored {score ? score : "0"}%
         </h1>
         <p className="font-secondaryFont text-xl mt-2">
-          {score <= 50 && "You need to study more, keep it going! 📝"}
-          {score > 50 &&
+          {score && score <= 50 && "You need to study more, keep it going! 📝"}
+          {score &&
+            score > 50 &&
             score < 90 &&
             "Good job, keep practising for better results! 😊"}
-          {score >= 90 &&
+          {score &&
+            score >= 90 &&
             "Excellent! You have great knolewdge about this topic! 🎉"}
         </p>
       </div>

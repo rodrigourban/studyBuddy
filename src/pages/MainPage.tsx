@@ -1,34 +1,32 @@
-import { useEffect, useState } from "react";
+import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
+import { getExamList } from "../services/apiExam";
+import Loader from "../ui/Loading";
 
-const API_URL = "http://localhost:3000/testList";
-
-type TestList = {
+type Exam = {
+  questions: string[];
   id: number;
+  points?: number;
   name: string;
 };
 
+type Error = {
+  message: string;
+};
+
 function MainPage() {
-  const [testList, setTestList] = useState<TestList[]>([]);
+  const { isLoading, data, error } = useQuery<Exam[], Error>(
+    "examList",
+    getExamList
+  );
 
-  useEffect(function () {
-    async function getTestList() {
-      try {
-        const response = await fetch(API_URL);
-        const data = await response.json();
-        if (!data) {
-          throw new Error("Failed to fetch questions");
-        }
+  if (isLoading) {
+    return <Loader message="Loading exam list..." />;
+  }
 
-        //dispatch({ type: "data/received", payload: data });
-        setTestList(data);
-      } catch (err) {
-        console.error("error while fetching", err);
-        //dispatch({ type: "data/error" });
-      }
-    }
-    getTestList();
-  }, []);
+  if (error) {
+    return <span>Error: {error.message}</span>;
+  }
 
   return (
     <div className="relative bg-indigo-100 h-svh">
@@ -42,7 +40,7 @@ function MainPage() {
           perspiration." - Thomas Edison
         </h3>
         <ul className="space-y-2 mt-2 p-5 ">
-          {testList.map((test) => (
+          {data?.map((test) => (
             <li
               className="rounded-lg flex items-center justify-between p-5 bg-indigo-50 shadow-md"
               key={`exam-${test.id}`}
