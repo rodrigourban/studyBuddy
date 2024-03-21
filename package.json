@@ -12,9 +12,11 @@
     "backend": "json-server --watch src/data/questions.json"
   },
   "dependencies": {
+    "framer-motion": "^11.0.18",
     "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
