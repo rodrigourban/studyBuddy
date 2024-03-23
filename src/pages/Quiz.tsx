@@ -1,64 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Question from "../features/Question";
 import Progress from "../ui/Progress";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { useMutation, useQuery } from "react-query";
-import { getQuizDetails, postScore } from "../services/apiExam";
 import Loader from "../ui/Loading";
-import { QuestionType } from "../utils/shuffleArray";
+import Timer from "../ui/Timer";
+import { useGlobalContext } from "../hooks/useContext";
+import { getQuizDetails } from "../services/apiQuiz";
+import { QuizType } from "../types";
 
-type QuizType = {
-  questions: QuestionType[];
-  title: string;
-};
-type Error = {
-  message: string;
-};
 function Quiz() {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [hasAnswered, setHasAnswered] = useState(false);
-  const [score, setScore] = useState(0);
+  const { answer, index, nextQuestion, finishQuiz, updateScore } =
+    useGlobalContext();
+  const [quiz, setQuiz] = useState<QuizType>();
   const { quizId } = useParams();
-  const { isLoading, error, data } = useQuery<QuizType, Error>({
-    queryKey: ["quiz", quizId],
-    queryFn: () => getQuizDetails(Number(quizId)),
-  });
-  const { mutate: postQuizResult } = useMutation(
-    () =>
-      postScore({
-        score,
-        questionsLength: data?.questions.length || 0,
-        quizId: Number(quizId),
-      }),
-    {
-      onSuccess: () => navigate(`/quiz-results/${quizId}`),
-    }
-  );
   const navigate = useNavigate();
 
-  if (isLoading) {
+  useEffect(function () {
+    async function startQuiz() {
+      const quiz = await getQuizDetails(Number(quizId));
+      setQuiz(quiz);
+    }
+    startQuiz();
+  }, []);
+
+  if (!quiz) {
     return <Loader message="Loading quiz..." />;
-  }
-
-  if (error) {
-    return <span>Error: {error.message}</span>;
-  }
-
-  const { questions, title } = data || {};
-
-  function handleNextQuestion() {
-    if (questions && currentQuestion + 1 >= questions.length) {
-      postQuizResult();
-    }
-    setCurrentQuestion((previousValue) => previousValue + 1);
-    setHasAnswered(false);
-  }
-
-  function handleScoreAnswer(correct: boolean) {
-    if (correct) {
-      setScore((prevScore) => prevScore + 1);
-    }
-    setHasAnswered(true);
   }
 
   return (
@@ -72,6 +38,7 @@ function Quiz() {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-6 h-6"
+            onClick={() => finishQuiz()}
           >
             <path
               strokeLinecap="round"
@@ -81,7 +48,7 @@ function Quiz() {
           </svg>
         </Link>
         <h1 className="grow text-center font-primaryFont font-semibold text-2xl">
-          {title}
+          {quiz.title}
         </h1>
         <button className="flex-none">
           <svg
@@ -101,34 +68,33 @@ function Quiz() {
         </button>
       </div>
       <div className="p-5 flex-none">
-        <Progress
-          currentQuestion={currentQuestion}
-          numberOfQuestions={questions?.length || 0}
-        />
+        <Progress quiz={quiz} />
       </div>
       <div className="p-3 grow">
-        <Question
-          questionObj={questions?.at(currentQuestion)}
-          key={`question-${currentQuestion}`}
-          onNextQuestion={handleNextQuestion}
-          onScoreAnswer={handleScoreAnswer}
-        />
+        <Question quiz={quiz} />
       </div>
-      <div className="p-5 flex-none">
-        <span className="rounded-full border-slate-900 border-2 text-xl p-2">
-          50:00
-        </span>
-      </div>
-      <div className="">
-        {hasAnswered && (
-          <button
-            className="block rounded-full text-xl border-slate-600 border-2 p-3 hover:bg-slate-300 text-slate-900 w-full mb-1 disabled:pointer-events-none"
-            onClick={handleNextQuestion}
-          >
-            NEXT
-          </button>
-        )}
-      </div>
+      <footer>
+        <div className="p-5 flex-none ml-5">
+          <Timer />
+        </div>
+        <div className="">
+          {answer !== null && (
+            <button
+              className="block rounded-full text-xl border-slate-600 border-2 p-3 hover:bg-slate-300 text-slate-900 w-full mb-1 disabled:pointer-events-none"
+              onClick={() => {
+                if (index + 1 < quiz.questions.length) {
+                  nextQuestion();
+                } else {
+                  updateScore(Number(quizId), quiz.questions.length);
+                  navigate(`/quiz-results/${quizId}`);
+                }
+              }}
+            >
+              NEXT
+            </button>
+          )}
+        </div>
+      </footer>
     </div>
   );
 }

@@ -9,8 +9,16 @@
   .incorrect {
     @apply bg-yellow-500 border-yellow-600;
   }
-  .selected {
-    @apply outline-dotted outline-2 outline-offset-1
+  .inputLabe {
+    @apply text-md pb-2 font-secondaryFont font-semibold
+  }
+  .input {
+    @apply rounded-full text-lg font-primaryFont p-3 indent-1 placeholder-slate-400 border-indigo-300 border-2
+                            focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500
+                            disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none w-full
+  }
+  .primaryButton {
+    @apply rounded-full text-xl border-slate-600 border-2 p-3 hover:bg-indigo-500 text-slate-900 w-full mb-1 disabled:pointer-events-none  hover:text-white transition-all duration-300
   }
   .loader {
       width: 50px;

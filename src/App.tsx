@@ -1,27 +1,25 @@
 import Quiz from "./pages/Quiz";
 import MainPage from "./pages/MainPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { ReactQueryDevtools } from "react-query/devtools";
 
 import QuizResult from "./pages/QuizResult";
-import Login from "./pages/Login";
-import { QueryClient, QueryClientProvider } from "react-query";
-
-const queryClient = new QueryClient();
+import { GlobalProvider } from "./hooks/useContext";
+import EditQuiz from "./pages/EditQuiz";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools initialIsOpen={false} />
+    <GlobalProvider>
       <BrowserRouter>
         <Routes>
-          <Route index path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/take/:quizId" element={<Quiz />} />
           <Route path="/quiz-results/:quizId" element={<QuizResult />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/edit-quiz/:quizId" element={<EditQuiz />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
-    </QueryClientProvider>
+    </GlobalProvider>
   );
 }
 

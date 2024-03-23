@@ -6,12 +6,7 @@
       "questions": [
         {
           "question": "Which is the most popular JavaScript framework?",
-          "options": [
-            "Angular",
-            "React",
-            "Svelte",
-            "Vue"
-          ],
+          "options": ["Angular", "React", "Svelte", "Vue"],
           "correctOption": 1,
           "points": 10
         },
@@ -160,45 +155,25 @@
         },
         {
           "question": "Which is the most popular JavaScript framework?",
-          "options": [
-            "Angular",
-            "React",
-            "Svelte",
-            "Vue"
-          ],
+          "options": ["Angular", "React", "Svelte", "Vue"],
           "correctOption": 1,
           "points": 10
         },
         {
           "question": "Which company invented React?",
-          "options": [
-            "Google",
-            "Apple",
-            "Netflix",
-            "Facebook"
-          ],
+          "options": ["Google", "Apple", "Netflix", "Facebook"],
           "correctOption": 3,
           "points": 10
         },
         {
           "question": "What's the fundamental building block of React apps?",
-          "options": [
-            "Components",
-            "Blocks",
-            "Elements",
-            "Effects"
-          ],
+          "options": ["Components", "Blocks", "Elements", "Effects"],
           "correctOption": 0,
           "points": 10
         },
         {
           "question": "What's the name of the syntax we use to describe the UI in React components?",
-          "options": [
-            "FBJ",
-            "Babel",
-            "JSX",
-            "ES2015"
-          ],
+          "options": ["FBJ", "Babel", "JSX", "ES2015"],
           "correctOption": 2,
           "points": 10
         },
@@ -215,12 +190,7 @@
         },
         {
           "question": "How to pass data into a child component?",
-          "options": [
-            "State",
-            "Props",
-            "PropTypes",
-            "Parameters"
-          ],
+          "options": ["State", "Props", "PropTypes", "Parameters"],
           "correctOption": 1,
           "points": 10
         },
@@ -281,12 +251,7 @@
         },
         {
           "question": "Which hook to use for an API request on the component's initial render?",
-          "options": [
-            "useState",
-            "useEffect",
-            "useRef",
-            "useReducer"
-          ],
+          "options": ["useState", "useEffect", "useRef", "useReducer"],
           "correctOption": 1,
           "points": 10
         },
@@ -303,12 +268,7 @@
         },
         {
           "question": "Which of the following is NOT a way to manage global state in advanced ReactJS applications?",
-          "options": [
-            "Context API",
-            "Redux",
-            "MobX",
-            "useState hook"
-          ],
+          "options": ["Context API", "Redux", "MobX", "useState hook"],
           "correctOption": 3,
           "points": 10
         },
@@ -369,12 +329,7 @@
         },
         {
           "question": "Which tool is commonly used for server-side rendering in advanced ReactJS applications?",
-          "options": [
-            "Next.js",
-            "Redux",
-            " GraphQL",
-            "Styled Components"
-          ],
+          "options": ["Next.js", "Redux", " GraphQL", "Styled Components"],
           "correctOption": 0,
           "points": 30
         },
@@ -419,12 +374,7 @@
         },
         {
           "question": "Which module in Node.js is commonly used for building web servers?",
-          "options": [
-            "http",
-            "fs",
-            "path",
-            "os"
-          ],
+          "options": ["http", "fs", "path", "os"],
           "correctOption": 0,
           "points": 10
         },
@@ -452,23 +402,13 @@
         },
         {
           "question": "Which npm package is commonly used for environment variable management in Node.js applications?",
-          "options": [
-            "config",
-            "dotenv",
-            "express-env",
-            "envconfig"
-          ],
+          "options": ["config", "dotenv", "express-env", "envconfig"],
           "correctOption": 1,
           "points": 10
         },
         {
           "question": "Which of the following is the character code that is used in computers but does not have provisions for kanji characters?",
-          "options": [
-            "ASCII code",
-            "EUC",
-            "Unicode",
-            "Shift JIS code"
-          ],
+          "options": ["ASCII code", "EUC", "Unicode", "Shift JIS code"],
           "correctOption": 0,
           "points": 10
         },
@@ -496,12 +436,7 @@
         },
         {
           "question": "Which npm package is commonly used for handling authentication in Node.js applications?",
-          "options": [
-            "bcrypt",
-            "passport",
-            "jsonwebtoken",
-            "express-session"
-          ],
+          "options": ["bcrypt", "passport", "jsonwebtoken", "express-session"],
           "correctOption": 1,
           "points": 20
         },
@@ -540,12 +475,7 @@
         },
         {
           "question": "Which npm package is commonly used for testing Express.js applications?",
-          "options": [
-            "Jest",
-            "Mocha",
-            "Chai",
-            "Supertest"
-          ],
+          "options": ["Jest", "Mocha", "Chai", "Supertest"],
           "correctOption": 3,
           "points": 20
         },
@@ -562,12 +492,7 @@
         },
         {
           "question": "Which of the following is NOT a valid route parameter in Express.js?",
-          "options": [
-            ":id",
-            ":name",
-            ":query",
-            ":query"
-          ],
+          "options": [":id", ":name", ":query", ":query"],
           "correctOption": 1,
           "points": 20
         },
@@ -584,12 +509,7 @@
         },
         {
           "question": "Which npm package is commonly used for logging in Node.js applications?",
-          "options": [
-            "log4js",
-            "morgan",
-            "winston",
-            "logger"
-          ],
+          "options": ["log4js", "morgan", "winston", "logger"],
           "correctOption": 2,
           "points": 20
         },
@@ -617,12 +537,7 @@
         },
         {
           "question": "Which npm package is commonly used for data validation in Node.js applications?",
-          "options": [
-            "express-validator",
-            "validate.js",
-            "joi",
-            "yup"
-          ],
+          "options": ["express-validator", "validate.js", "joi", "yup"],
           "correctOption": 2,
           "points": 20
         }
@@ -656,12 +571,7 @@
         },
         {
           "question": "In TypeScript, what keyword is used to define a variable with a specific type in React components?",
-          "options": [
-            "var",
-            "let",
-            "const",
-            ":type"
-          ],
+          "options": ["var", "let", "const", ":type"],
           "correctOption": 3,
           "points": 10
         },
@@ -689,23 +599,13 @@
         },
         {
           "question": "Which TypeScript feature allows you to define custom types that can be reused throughout the codebase in Express.js?",
-          "options": [
-            "Enums",
-            "Interfaces",
-            "Type aliases",
-            "Union types"
-          ],
+          "options": ["Enums", "Interfaces", "Type aliases", "Union types"],
           "correctOption": 2,
           "points": 10
         },
         {
           "question": "Which command is commonly used to compile TypeScript code into JavaScript in React and Express.js projects?",
-          "options": [
-            "tsc",
-            "ts.compoile",
-            "transpile",
-            "ts-node"
-          ],
+          "options": ["tsc", "ts.compoile", "transpile", "ts-node"],
           "correctOption": 0,
           "points": 10
         },
@@ -722,12 +622,7 @@
         },
         {
           "question": "Which TypeScript feature allows you to create a new type from one or more existing types in React and Express.js?",
-          "options": [
-            "Interfaces",
-            "Enums",
-            "Union types",
-            "Type inference"
-          ],
+          "options": ["Interfaces", "Enums", "Union types", "Type inference"],
           "correctOption": 2,
           "points": 10
         },
@@ -755,12 +650,7 @@
         },
         {
           "question": "Which TypeScript feature allows you to define a set of named constants in React and Express.js?",
-          "options": [
-            "Interfaces",
-            "Generics",
-            "Enums",
-            "Type aliases"
-          ],
+          "options": ["Interfaces", "Generics", "Enums", "Type aliases"],
           "correctOption": 2,
           "points": 10
         },
@@ -799,12 +689,7 @@
         },
         {
           "question": "Which TypeScript feature helps improve code readability and maintainability by providing a way to reuse code in React and Express.js?",
-          "options": [
-            "Interfaces",
-            "Type inference",
-            "Enums",
-            "Generics"
-          ],
+          "options": ["Interfaces", "Type inference", "Enums", "Generics"],
           "correctOption": 3,
           "points": 10
         },
@@ -927,12 +812,7 @@
         {
           "points": 10,
           "question": "Which package is used for styling components in Next.js applications?",
-          "options": [
-            "SASS",
-            "CSS Modules",
-            "Styled Components",
-            "Bootstrap"
-          ],
+          "options": ["SASS", "CSS Modules", "Styled Components", "Bootstrap"],
           "correctOption": 2
         },
         {
@@ -949,12 +829,7 @@
         {
           "points": 10,
           "question": "Which package is commonly used for handling forms in Next.js applications?",
-          "options": [
-            "react-hook-form",
-            "Formik",
-            "react-form",
-            "redux-form"
-          ],
+          "options": ["react-hook-form", "Formik", "react-form", "redux-form"],
           "correctOption": 0
         },
         {
@@ -1004,12 +879,7 @@
         {
           "points": 10,
           "question": "Which package is used for managing state in Next.js applications?",
-          "options": [
-            "Redux",
-            "MobX",
-            "React Context API",
-            "All of the above"
-          ],
+          "options": ["Redux", "MobX", "React Context API", "All of the above"],
           "correctOption": 3
         },
         {
@@ -1108,12 +978,7 @@
       "questions": [
         {
           "question": "Which particle is used to indicate the subject of a sentence in Japanese?",
-          "options": [
-            "を (wo)",
-            "は (wa)",
-            "が (ga)",
-            "に (ni)"
-          ],
+          "options": ["を (wo)", "は (wa)", "が (ga)", "に (ni)"],
           "correctOption": 2,
           "points": 10
         },
@@ -1130,12 +995,7 @@
         },
         {
           "question": "Which particle is used to indicate direction or destination in Japanese?",
-          "options": [
-            "で (de)",
-            "と (to)",
-            "から (kara)",
-            "へ (e)"
-          ],
+          "options": ["で (de)", "と (to)", "から (kara)", "へ (e)"],
           "correctOption": 3,
           "points": 10
         },
@@ -1152,12 +1012,7 @@
         },
         {
           "question": "Which particle is used to indicate the means or method by which an action is performed in Japanese?",
-          "options": [
-            "が (ga)",
-            "と (to)",
-            "で (de)",
-            "に (ni)"
-          ],
+          "options": ["が (ga)", "と (to)", "で (de)", "に (ni)"],
           "correctOption": 2,
           "points": 10
         },
@@ -1174,12 +1029,7 @@
         },
         {
           "question": "Which particle is used to indicate the time at which an action takes place in Japanese?",
-          "options": [
-            "と (to)",
-            "に (ni)",
-            "で (de)",
-            "から (kara)"
-          ],
+          "options": ["と (to)", "に (ni)", "で (de)", "から (kara)"],
           "correctOption": 1,
           "points": 10
         },
@@ -1196,12 +1046,7 @@
         },
         {
           "question": "Which particle is used to indicate possession in Japanese?",
-          "options": [
-            "が (ga)",
-            "の (no)",
-            "は (wa)",
-            "を (wo)"
-          ],
+          "options": ["が (ga)", "の (no)", "は (wa)", "を (wo)"],
           "correctOption": 1,
           "points": 10
         },
@@ -1218,12 +1063,7 @@
         },
         {
           "question": "Which particle is used to indicate direction toward a specific location in Japanese?",
-          "options": [
-            "で (de)",
-            "に (ni)",
-            "から (kara)",
-            "へ (e)"
-          ],
+          "options": ["で (de)", "に (ni)", "から (kara)", "へ (e)"],
           "correctOption": 3,
           "points": 10
         },
@@ -1240,12 +1080,7 @@
         },
         {
           "question": "Which particle is used to indicate the direct object of a verb in Japanese?",
-          "options": [
-            "が (ga)",
-            "を (wo)",
-            "に (ni)",
-            "へ (e)"
-          ],
+          "options": ["が (ga)", "を (wo)", "に (ni)", "へ (e)"],
           "correctOption": 1,
           "points": 10
         },
@@ -1262,12 +1097,7 @@
         },
         {
           "question": "Which particle is used to indicate the location where an action takes place in Japanese?",
-          "options": [
-            "が (ga)",
-            "に (ni)",
-            "で (de)",
-            "と (to)"
-          ],
+          "options": ["が (ga)", "に (ni)", "で (de)", "と (to)"],
           "correctOption": 3,
           "points": 10
         },
@@ -1284,12 +1114,7 @@
         },
         {
           "question": "Which particle is used to indicate the subject of a sentence in Japanese?",
-          "options": [
-            "を (wo)",
-            "は (wa)",
-            "が (ga)",
-            "に (ni)"
-          ],
+          "options": ["を (wo)", "は (wa)", "が (ga)", "に (ni)"],
           "correctOption": 3,
           "points": 10
         },
@@ -1328,12 +1153,7 @@
         },
         {
           "question": "Which particle is used to indicate the means or method by which an action is performed in Japanese?",
-          "options": [
-            "が (ga)",
-            "と (to)",
-            "で (de)",
-            "に (ni)"
-          ],
+          "options": ["が (ga)", "と (to)", "で (de)", "に (ni)"],
           "correctOption": 2,
           "points": 10
         },
@@ -1595,12 +1415,7 @@
       "questions": [
         {
           "question": "How many times is the number of bit patterns that can be represented with 32 bits larger than the number that can be represented with 24 bits",
-          "options": [
-            "8",
-            "16",
-            "128",
-            "256"
-          ],
+          "options": ["8", "16", "128", "256"],
           "correctOption": 3,
           "points": 10
         },
@@ -1617,12 +1432,7 @@
         },
         {
           "question": "Which of the following is the decimal number that is equal to the binary number 101.11? ",
-          "options": [
-            "5.11",
-            "5.3",
-            "5.55",
-            "5.75"
-          ],
+          "options": ["5.11", "5.3", "5.55", "5.75"],
           "correctOption": 3,
           "points": 10
         },
@@ -1650,12 +1460,7 @@
         },
         {
           "question": "Which of the following is the character code that is used in computers but does not have provisions for kanji characters?",
-          "options": [
-            "ASCII code",
-            "EUC",
-            "Unicode",
-            "Shift JIS code"
-          ],
+          "options": ["ASCII code", "EUC", "Unicode", "Shift JIS code"],
           "correctOption": 0,
           "points": 10
         },
@@ -1672,23 +1477,13 @@
         },
         {
           "question": "How many bytes are required when a 6-digit signed decimal number is represented in packed decimal?",
-          "options": [
-            "3",
-            "4",
-            "6",
-            "7"
-          ],
+          "options": ["3", "4", "6", "7"],
           "correctOption": 1,
           "points": 20
         },
         {
           "question": "Which of the following is the decimal number -5.625 that is represented as a binary number using the 8-bit fixed point format? Here, the position of the radix point is between the 4th bit and the 5th bit, and 2's complement is used for negative numbers. [8|7|6|5|(radix)|4|3|2|1]",
-          "options": [
-            "01001100",
-            "10100101",
-            "10100110",
-            "11010011"
-          ],
+          "options": ["01001100", "10100101", "10100110", "11010011"],
           "correctOption": 2,
           "points": 20
         },
@@ -1705,12 +1500,7 @@
         },
         {
           "question": "In order to obtain 32 times of a positive integer number that is represented in binary, how many bits should be shifted to the left? Here, there should not be any overflow. ",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "32"
-          ],
+          "options": ["4", "5", "6", "32"],
           "correctOption": 1,
           "points": 30
         },
@@ -1898,12 +1688,7 @@
       "questions": [
         {
           "question": "How many times is the number of bit patterns that can be represented with 32 bits larger than the number that can be represented with 24 bits",
-          "options": [
-            "8",
-            "16",
-            "128",
-            "256"
-          ],
+          "options": ["8", "16", "128", "256"],
           "correctOption": 3,
           "points": 10
         },
@@ -1920,12 +1705,7 @@
         },
         {
           "question": "Which of the following is the decimal number that is equal to the binary number 101.11? ",
-          "options": [
-            "5.11",
-            "5.3",
-            "5.55",
-            "5.75"
-          ],
+          "options": ["5.11", "5.3", "5.55", "5.75"],
           "correctOption": 3,
           "points": 10
         },
@@ -1953,12 +1733,7 @@
         },
         {
           "question": "Which of the following is the character code that is used in computers but does not have provisions for kanji characters?",
-          "options": [
-            "ASCII code",
-            "EUC",
-            "Unicode",
-            "Shift JIS code"
-          ],
+          "options": ["ASCII code", "EUC", "Unicode", "Shift JIS code"],
           "correctOption": 0,
           "points": 10
         },
@@ -1975,23 +1750,13 @@
         },
         {
           "question": "How many bytes are required when a 6-digit signed decimal number is represented in packed decimal?",
-          "options": [
-            "3",
-            "4",
-            "6",
-            "7"
-          ],
+          "options": ["3", "4", "6", "7"],
           "correctOption": 1,
           "points": 20
         },
         {
           "question": "Which of the following is the decimal number -5.625 that is represented as a binary number using the 8-bit fixed point format? Here, the position of the radix point is between the 4th bit and the 5th bit, and 2's complement is used for negative numbers. [8|7|6|5|(radix)|4|3|2|1]",
-          "options": [
-            "01001100",
-            "10100101",
-            "10100110",
-            "11010011"
-          ],
+          "options": ["01001100", "10100101", "10100110", "11010011"],
           "correctOption": 2,
           "points": 20
         },
@@ -2008,12 +1773,7 @@
         },
         {
           "question": "In order to obtain 32 times of a positive integer number that is represented in binary, how many bits should be shifted to the left? Here, there should not be any overflow. ",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "32"
-          ],
+          "options": ["4", "5", "6", "32"],
           "correctOption": 1,
           "points": 30
         },
@@ -2194,54 +1954,6 @@
           "points": 20
         }
       ]
-    }
-  ],
-  "testList": [
-    {
-      "name": "React",
-      "id": "0"
-    },
-    {
-      "name": "NodeJS",
-      "id": "1"
-    },
-    {
-      "name": "Typescript",
-      "id": "2"
-    },
-    {
-      "name": "NextJS",
-      "id": "3"
-    },
-    {
-      "name": "Japanese N5",
-      "id": "4"
-    },
-    {
-      "name": "Hardware 1: Binary Representation",
-      "id": "5"
-    },
-    {
-      "name": "Hardware 1: Control Unit",
-      "id": "6"
-    }
-  ],
-  "scoreList": [
-    {
-      "id": "0",
-      "score": 50
-    },
-    {
-      "id": "1",
-      "score": "90.00"
-    },
-    {
-      "id": "4",
-      "score": "80.43"
-    },
-    {
-      "id": "0",
-      "score": "97.22"
     }
   ]
 }

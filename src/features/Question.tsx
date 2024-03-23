@@ -1,22 +1,25 @@
-import { useState } from "react";
 import AnswerOption from "../ui/AnswerOption";
-import { QuestionType } from "../utils/shuffleArray";
+import correct from "../assets/correctAnswer.mp3";
+import wrong from "../assets/wrongAnswer.mp3";
+import { useGlobalContext } from "../hooks/useContext";
+import { QuestionType, QuizType } from "../types";
 
-function Question({
-  questionObj,
-  onScoreAnswer,
-}: {
-  questionObj?: QuestionType;
-  onNextQuestion: () => void;
-  onScoreAnswer: (correct: boolean) => void;
-}) {
-  const [answer, setAnswer] = useState<number | null>(null);
+function Question({ quiz }: { quiz: QuizType }) {
+  const { answer, newAnswer, index } = useGlobalContext();
 
-  function handleOnClickAnswer(id: number) {
-    setAnswer(id);
-    onScoreAnswer(questionObj?.correctOption === id);
+  const questionObj = quiz.questions.at(index);
+
+  async function handleOnClickAnswer(id: number) {
+    newAnswer(id, questionObj as QuestionType);
+    if (id === questionObj?.correctOption) {
+      correctAnswerAudio.play();
+    } else {
+      wrongAnswerAudio.play();
+    }
   }
 
+  const correctAnswerAudio = new Audio(correct);
+  const wrongAnswerAudio = new Audio(wrong);
   const hasAnswered = answer !== null;
 
   return (
@@ -30,7 +33,7 @@ function Question({
             id={id}
             correctAnswer={hasAnswered && questionObj?.correctOption === id}
             hasAnswered={hasAnswered}
-            onSelectAnswer={handleOnClickAnswer}
+            onSelectAnswer={(id) => handleOnClickAnswer(id)}
           />
         ))}
       </ul>
